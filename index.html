@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Juan Montiel</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div id="particles-js"></div>
+		<!-- Menu -->
+		<div class="header_menu">
+			<div class="container">
+				<p>JM</p>
+				<img src="img/menu.png" alt="" class="menu-ico">
+				<nav id="despelgable">
+					<ul>
+						<li><a href="">Inicio</a></li>
+						<li><a href="#sobremi">Sobre mi</a></li>
+						<li><a href="#servicios">Servicios</a></li>
+						<li><a href="#portafolio">Portafolio</a></li>
+						<li><a href="#contacto">Contacto</a></li>
+						<li><button class="switch" id="switch">
+							<span><i class="fas fa-sun"></i></span>
+							<span><i class="fas fa-moon"></i></span>
+						</button></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- fin menu -->
+
+		<div class="header_titular">
+			<div class="container">
+				<!-- Titular  -->
+				<div class="titular">
+					<h1>Soy Juan Montiel</h1>
+					<h2>Web Developer</h2>
+					<a class="boton" href="#contacto">Contactame <i class="fas fa-angle-double-right"></i></a>
+				</div>
+				<div class="imagen">
+					<img src="img/header.png">
+				</div>
+				<!-- Fin Titular  -->
+			</div>
+			
+		</div>
+	</header>
+	<main>
+		<section id="sobremi" class="sobre_mi">
+			<div class="container">
+				<img src="img/perfil.png" alt="">
+				<div class="container_caja">
+					<div class="historia">
+						<h3 class="titulo">Sobre mi</h3>
+						<p class="parrafo"><span>Nombre: </span>Juan Carlos Montiel Cordero</p>
+						<p class="parrafo"><span>Perfil: </span>Web Developer</p>
+						<p class="parrafo"><span>Telefono: </span>(+57) 3178982655</p>
+						<P class="parrafo">Estudiante de desarrollo de software del Politécnico Internacional, cuenta con amplios conocimientos en el manejo del paquete de Office, diseño y desarrollo web con HTML, Css, Javascript, PHP, frameworks como Angula, Bootstrap y Laravel y bases de datos relacionales.</P>
+						<p class="parrafo">Responsable, dinámico y proactivo, con facilidad de adaptación y capacidad de trabajar en equipo.</p>
+					</div>
+					<div class="skills">
+						<h3 class="titulo">Habilidades</h3>
+						<div class="bar">
+							<div class="info">
+								<span>HTML</span>
+							</div>
+							<div class="linea html"><span></span></div>
+						</div>
+						<div class="bar">
+							<div class="info">
+								<span>MySql</span>
+							</div>
+							<div class="linea mysql"><span></span></div>
+						</div>
+						<div class="bar">
+							<div class="info">
+								<span>CSS</span>
+							</div>
+							<div class="linea css"><span></span></div>
+						</div>
+						<div class="bar">
+							<div class="info">
+								<span>Javascript</span>
+							</div>
+							<div class="linea javascript"><span></span></div>
+						</div>
+						<div class="bar">
+							<div class="info">
+								<span>PHP</span>
+							</div>
+							<div class="linea php"><span></span></div>
+						</div>
+						<div class="bar">
+							<div class="info">
+								<span>Java</span>
+							</div>
+							<div class="linea java"><span></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="servicios" class="servicios">
+			<div class="container">
+				<div class="servicios-titular">
+					<h2>Servicios</h2>
+					<h4>Me esfuerzo constantemente para que tu marca tenga un sitio web con verdaderos propósitos, Mejorando la configuracion el diseño y la experiencia del sitio, alcanzando los resultados propuestos.</h4>
+					<a class="boton" href="#contacto">Contactame</a>
+				</div>
+				<div class="servicio">
+					<img src="img/ux.png" alt="">
+					<h3 id="Landing" class="titulo">Landing Page</h3>
+					<p>Diseños orientados a empresas o profesionales que necesiten realizar marketing online o tener presencia en internet.</p>
+					<a href="#contacto" onclick="Solicitar(1)">Solicitar</a>
+				</div>
+			</div>
+
+			<div class="container servicio-2">
+				<div class="servicio">
+					<img src="img/website.png" alt="">
+					<h3 class="titulo">Web Development</h3>
+					<p>Me encargo de crear tu tienda online de forma ágil y profesional para que abras tu negocio online y empieces a vender</p>
+					<a href="#contacto" onclick="Solicitar(2)">Solicitar</a>
+				</div>
+				<div class="servicio">
+					<img src="img/responsive-design.png" alt="">
+					<h3 class="titulo">Responsive Design</h3>
+					<div></div>
+					<p>Constantemente estamos conectados a internet desde diferentes dispositivos como tabletas televisores y dispositivos móviles, Te ayudo a adaptarte a las nuevas tecnologías!</p>
+					<a href="#contacto" onclick="Solicitar(3)">Solicitar</a>
+				</div>
+				<div class="servicio">
+					<img src="img/java.png" alt="">
+					<h3 class="titulo">Desktop Development</h3>
+					<p>Para estudiante universitario y necesitas ayuda con tus proyectos Java, Sql Server, MySQL o POO.</p>
+					<a href="#contacto" onclick="Solicitar(4)">Solicitar</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="portafolio" class="portafolio">
+			<div class="container">
+				<h2>Portafolio</h2>
+				<div class="portafolio-proyectos">
+					
+					<div class="proyecto">
+						<a target="_blank" href="https://leitnom.github.io/mocca">
+							<div class="imagen">
+								<img src="img/mocca.jpg" alt="">
+							</div>
+							<div class="contenido">
+								<div class="titular">
+									<h3 class="titulo">Mocca</h3>
+									<p class="parrafo"><span>Web Design</span>/26 Abril 2021</p>
+									<p class="parrafo">El mejor lugar para disfrutar un buen Café.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="proyecto">
+						<a target="_blank" href="https://leitnom.github.io/portafolio/">
+							<div class="imagen">
+								<img src="img/portafolio.jpg" alt="">
+							</div>
+							<div class="contenido">
+								<div class="titular">
+									<h3 class="titulo">HV-Portafolio</h3>
+									<p class="parrafo"><span>Web Design</span>/26 Abril 2021</p>
+									<p class="parrafo">Muestra tu trabajo y permite que otras personas sepan más de ti.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="proyecto">
+						<a target="_blank" href="https://www.youtube.com/watch?v=7MbvDPenxac">
+							<div class="imagen">
+								<img src="img/serietv.jpg" alt="">
+							</div>
+							<div class="contenido">
+								<div class="titular">
+									<h3 class="titulo">Serie TV</h3>
+									<p class="parrafo"><span>Desktop Development</span>/01 Mayo 2021</p>
+									<p class="parrafo">SCRUM realizado con java y MySql Workbench</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contacto" class="contacto">
+			<div class="container">
+				<h2>Contactame</h2>
+				<div class="contacto-container">
+					<div class="formulario">
+						<h3 class="titulo">Deja un mensaje</h3>
+						<form action="">
+							<input id="Asunto" type="text" placeholder="Asunto">
+							<input id="Nombre" type="text" placeholder="Nombre">
+							<input id="Email" type="email" placeholder="Email">
+							<textarea id="Mensaje" placeholder="Mensaje"></textarea>
+							<button class="boton">Enviar</button>
+							<a id="limpiar" class="boton" onclick="limpiar()">Limpiar</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<footer>
+		<div class="container">
+			<div class="anuncio">
+				<h2>Tienes una idea o proyecto en mente?</h2>
+				<h3 class="titulo">Hazme parte de ella</h3>
+				<a class="boton" href="#contacto">Contactame</a>
+			</div>
+		</div>
+
+		<span class="arriba">
+			<img src="img/arriba.png">
+		</span>
+
+		<div class="footer">
+			<div class="container">
+				<div class="autor">
+					<p class="parrafo">Desarrollado por <span>Juan Montiel</span></p>
+				</div>
+				<div class="redes">
+					<ul>
+						<li><a target="_blank" href="https://www.facebook.com/profile.php?id=100067136209325"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a target="_blank" href="https://www.youtube.com/channel/UCikpA9BSzrawmWr22eWjztg"><i class="fab fa-youtube"></i></a></li>
+						<li><a target="_blank" href="https://github.com/Leitnom"><i class="fab fa-github"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+		  $('.menu-ico').click(function(){
+		    $('header nav').slideToggle();
+		  });
+
+		  $('.arriba').click(function(){
+		    $('body, html').animate({
+		      scrollTop: '0px'
+		    }, 300);
+		  });
+
+		  $(window).scroll(function(){
+		    if( $(this).scrollTop() > 0 ){
+		      $('.arriba').slideDown(300);
+		    } else {
+		      $('.arriba').slideUp(300);
+		    }
+		  });
+		});
+
+	</script>
+</body>
+</html>
